@@ -1,5 +1,5 @@
 # Stage-1.sh
-Wget https://raw.githubusercontent.com/HackBio-Internship/wale-home-tasks/main/DNA.fa
+wget https://raw.githubusercontent.com/HackBio-Internship/wale-home-tasks/main/DNA.fa
 grep -c "^>" DNA.fa | wc -c
 grep -v "^>" DNA.fa | wc -c
 conda install -c bioconda fastqc
